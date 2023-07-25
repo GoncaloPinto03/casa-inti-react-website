@@ -2,13 +2,14 @@ import React from 'react'
 import Window from '../assets/img2.jpeg'
 
 const About = () => {
+    
     const homeImgs = [
         {Window}, 
         {Window},
         {Window},
     ]
   return (
-    <div className='w-full bg-[#d7e0c8] py-16 px-4'>
+    <div name="about" className='w-full bg-[#d7e0c8] py-16 px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <img className='w-[500px] mx-auto my-4 rounded-[20px]' src={Window} alt='/'/>
             <div className='flex flex-col justify-center'>
