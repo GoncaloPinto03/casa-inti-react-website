@@ -12,12 +12,12 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black bg-[#E3E3E3]'>
-        <h1 className='w-full text-3xl font-bold text-[#417154]'>CASA INTI</h1>
+        <h1 className='w-full text-3xl font-bold text-[#417154] cursor-pointer'><Link to="home" smooth={true} duration={500}>CASA INTI</Link></h1>
         <ul className='hidden md:flex font-bold text-xl'>
-          <li className='p-4'><Link to="home" smooth={true} duration={500}>Home</Link></li>
-          <li className='p-4'><Link to="about" smooth={true} offset={50} duration={500}>About</Link></li>
-          <li className='p-4'><Link to="reviews" smooth={true} offset={50} duration={500}>Reviews</Link></li>
-          <li className='p-4'><Link to="footer" smooth={true} offset={50} duration={500}>Contacts</Link></li>
+          <li className='p-4 cursor-pointer'><Link to="home" smooth={true} duration={500}>Home</Link></li>
+          <li className='p-4 cursor-pointer'><Link to="about" smooth={true} offset={50} duration={500}>About</Link></li>
+          <li className='p-4 cursor-pointer'><Link to="reviews" smooth={true} offset={50} duration={500}>Reviews</Link></li>
+          <li className='p-4 cursor-pointer'><Link to="footer" smooth={true} offset={50} duration={500}>Contacts</Link></li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
           {nav ? <AiOutlineMenu size={20} /> : <AiOutlineClose size={20} />}
