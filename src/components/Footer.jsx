@@ -5,7 +5,7 @@ import {TbBrandBooking} from 'react-icons/tb'
 
 const Footer = () => {
   return (
-    <div name="footer" className='bg-[#E3E3E3] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
+    <div className='bg-[#E3E3E3] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300'>
         <div>
             <h1 className='w-full text-3xl font-bold text-[#6D9775]'>CASA INTI</h1>
             <h2 className='w-full text-2xl font-bold text-black text-right'>Contact Us</h2>

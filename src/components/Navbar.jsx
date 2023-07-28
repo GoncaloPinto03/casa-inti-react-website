@@ -36,8 +36,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='p-4 cursor-pointer'>
-            <Link to='footer' smooth={true} offset={50} duration={500}>
-              Contacts
+            <Link to='contact' smooth={true} offset={50} duration={500}>
+              Contact
             </Link>
           </li>
         </ul>
@@ -67,7 +67,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li onClick={handleNav} className='p-4'>
-            <Link to='footer' smooth={true} offset={50} duration={500}>
+            <Link to='contact' smooth={true} offset={50} duration={500}>
               Contacts
             </Link>
           </li>
