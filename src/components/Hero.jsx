@@ -2,11 +2,8 @@ import React from 'react'
 import Typed from 'react-typed';
 import { Link, animateScroll as scroll } from 'react-scroll'
 
-
-
 const Hero = () => {
   return (
-    // bg-gradient-to-bl from-[#93a496] to-[[#E3E3E3]]]
     <div name="home"className='text-black bg-[#E3E3E3]' >
         <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
             <p className='text-[#417154] font-bold p-2'>FURNAS, AZORES</p>
