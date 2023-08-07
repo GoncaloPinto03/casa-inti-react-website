@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
-import img1 from '../assets/home_imgs/img1.jpeg';
-import img2 from '../assets/home_imgs/img2.jpeg';
-import img3 from '../assets/home_imgs/img3.jpeg';
-import img4 from '../assets/home_imgs/img4.jpeg';
-import img5 from '../assets/home_imgs/img5.jpeg';
-
-// do the same for the other images
-
-
 
 function App() {
   
@@ -39,29 +30,6 @@ function App() {
     return null;
   }
 
-
-  /*
-  const slides = [
-    {
-      url: img1,
-    },
-    {
-      url: img2,
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1661961112951-f2bfd1f253ce?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2672&q=80',
-    },
-
-    {
-      url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-    },
-    {
-      url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-    },
-  ];
-  */
-
-
   const prevSlide = () => {
     const isFirstSlide = currentIndex === 0;
     const newIndex = isFirstSlide ? slides.length - 1 : currentIndex - 1;
@@ -82,10 +50,8 @@ function App() {
     <div name="about" className='w-full bg-[#d7e0c8] px-4'>
         <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
             <div name='about' className='bg-[#d7e0c8] max-w-[1240px] h-[600px] w-full m-auto py-16  relative group'>
-                <div
-                    style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
-                    className='w-full h-full rounded-2xl bg-center bg-cover duration-500'
-                ></div>
+                <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
+                </div>
                 {/* Left Arrow */}
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <BsChevronCompactLeft onClick={prevSlide} size={30} />
@@ -94,7 +60,6 @@ function App() {
                 <div className='hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer'>
                     <BsChevronCompactRight onClick={nextSlide} size={30} />
                 </div>
-                
             </div>
             <div className='flex flex-col justify-center px-4 py-4 pb-12'>
                 <p className='text-[#6D9775] font-bold'>ABOUT</p>
