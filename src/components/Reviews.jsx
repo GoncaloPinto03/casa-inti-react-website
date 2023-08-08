@@ -39,7 +39,8 @@ const Reviews = () => {
   };
 
   return (
-    <div name="reviews" className='bg-[#E3E3E3] py-16 px-4'>
+
+    <div name="reviews" className='bg-[#E3E3E3] md:py-16 md:px-4 p-8'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='flex flex-col justify-center'>
           <p className='text-[#6D9775] font-bold'>REVIEWS</p>
@@ -63,6 +64,7 @@ const Reviews = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 

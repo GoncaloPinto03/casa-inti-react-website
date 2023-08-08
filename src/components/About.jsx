@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
 import { RxDotFilled } from 'react-icons/rx';
 
-function App() {
+const About = () => {
   
   const [slides, setSlides] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -47,9 +47,10 @@ function App() {
   };
 
   return (
-    <div name="about" className='w-full bg-[#d7e0c8] px-4'>
-        <div className='max-w-[1240px] mx-auto grid md:grid-cols-2'>
-            <div name='about' className='bg-[#d7e0c8] max-w-[1240px] h-[600px] w-full m-auto py-16  relative group'>
+    <div className='bg-[#e3e3e3] p-2 md:p-4 justify-center flex items-center'>
+    <div name="about" className=' bg-[#d7e0c8] md:p-8 p-4 rounded-3xl m-4 max-w-[1240px]' >
+        <div className=' mx-auto grid md:grid-cols-2'>
+            <div name='about' className='bg-[#d7e0c8] max-w-[1240px] h-[600px] w-full m-auto   relative group'>
                 <div style={{ backgroundImage: `url(${slides[currentIndex].url})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500'>
                 </div>
                 {/* Left Arrow */}
@@ -68,7 +69,8 @@ function App() {
             </div>
         </div>
     </div>
+    </div>
   );
 }
 
-export default App;
+export default About;

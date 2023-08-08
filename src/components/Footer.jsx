@@ -5,38 +5,39 @@ import logo from '../assets/logo.png';
 
 const Footer = () => {
   return (
-    <div className='bg-[#E3E3E3] mx-auto py-8 px-4 text-gray-300 grid md:grid-cols-3 '>
-      <div className='flex items-center md:ml-4'>
-        <img className='w-[30px] mr-2 rounded-[10px]' src={logo} alt='/' />
-        <h1 className='text-4xl font-bold text-[#6D9775]'>CASA INTI</h1>      
-      </div>
-      <div className='mx-auto items-center justify-center '>  
-        
-          <Link to='home' smooth={true} duration={500} className='text-black font-bold px-6 cursor-pointer'>
-            Home
-          </Link>
-          <Link to='about' smooth={true} duration={500} className='text-black font-bold px-6 cursor-pointer'>
-            About
-          </Link>
-          <Link to='reviews' smooth={true} duration={500} className='text-black font-bold px-6 cursor-pointer'>
-            Reviews
-          </Link>
-          <Link to='contact' smooth={true} duration={500} className='text-black font-bold px-6 cursor-pointer'>
-            Contact
-          </Link>
-        
-      </div>
-      <div className='grid grid-cols-2'>
-        <div>
-          <h2 className='text-4xl font-bold text-black mb-4'>Contact Us</h2>
-          <p className='mt-7 text-black font-bold'>Patrícia Estrela</p>
-        </div> 
-        <div className=' md:w-[75%]'>
-          <p className='py-1 text-black'>+351 912345678</p>
-          <p className='py-1 text-black'>casainti@gmail.com</p>
-          <AiOutlineFacebook size={30} className='inline-block text-[#104730] mt-2' />
-        </div>  
-      </div>
+    <div className='bg-[#6D9775] p-2 md:p-4'>
+      <footer class="bg-[#E3E3E3] rounded-lg shadow dark:bg-gray-900 m-4">
+          <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+              <div class="sm:flex sm:items-center sm:justify-between">
+                  <Link to='home' class="flex items-center mb-4 sm:mb-0 cursor-pointer">
+                      <img src={logo} className='w-[30px] mx-auto my-4 mr-3 rounded-[10px]' alt="casainti Logo" />
+                      <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white ">CASA INTI</span>
+                  </Link>
+                  <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+                      <Link to='home' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                        <a class="mr-4 hover:underline md:mr-6">Home</a>
+                      </Link>
+                      <Link to='about' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                        <a class="mr-4 hover:underline md:mr-6">About</a>
+                      </Link>
+                      <Link to='reviews' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                        <a class="mr-4 hover:underline md:mr-6">Reviews</a>
+                      </Link>
+                      <Link to='location' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                        <a class="mr-4 hover:underline md:mr-6">Location</a>
+                      </Link>
+                      <Link to='contact' smooth={true} duration={500} className='text-black font-bold cursor-pointer'>
+                        <a class="mr-4 hover:underline md:mr-6">Contact</a>
+                      </Link>
+                      <Link href='https://www.facebook.com/casaintiazores?locale=pt_PT' className='cursor-pointer items-center justify-center'>
+                        <AiOutlineFacebook size={30} className='inline-block text-[#104730]' />
+                      </Link>
+                  </ul>
+              </div>
+              <hr class="my-6 border-[#6D9775] sm:mx-auto dark:border-gray-700 lg:my-8" />
+              <span class="block text-sm text-black sm:text-center dark:text-gray-400">© 2023 <a>CASA INTI™</a>. All Rights Reserved.</span>
+          </div>
+      </footer>
     </div>
   );
 };
