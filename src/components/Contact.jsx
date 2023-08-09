@@ -30,7 +30,10 @@ const Contact = () => {
       <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
         <div className='pb-8'>
           <p className='text-4xl font-bold inline text-black border-b-4 border-[#e3e3e3]'>Contact</p>
-          <p className='text-[#e3e3e3] py-4'>Submit the form below or send us an email - casainti@gmail.com</p>
+          <p className='text-[#e3e3e3] py-4'>Submit the form below or send us an email</p>
+          <p className='text-[#e3e3e3] py-0'>Email - casainti@gmail.com</p>
+          <p className='text-[#e3e3e3] py-0'>Name - Patrícia Estrela</p>
+          <p className='text-[#e3e3e3] py-0'>Phone - (+351) 912345678</p>
         </div>
         <input type="text" name="user_name" className='bg-[#e3e3e3] p-2 rounded-xl' placeholder='Name' />
         <input className='my-4 p-2 bg-[#e3e3e3] rounded-xl' type="email" placeholder='Email' name='user_email' />

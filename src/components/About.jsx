@@ -62,7 +62,7 @@ const About = () => {
                     <BsChevronCompactRight onClick={nextSlide} size={30} />
                 </div>
             </div>
-            <div className='flex flex-col justify-center px-4 py-4 pb-12'>
+            <div className='flex flex-col justify-center md:p-4 p-2 '>
                 <p className='text-[#6D9775] font-bold'>ABOUT</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>CASA INTI</h1>
                 <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius neque in sodales auctor. Vestibulum tincidunt tempor metus, a cursus augue aliquam vitae. Nullam ipsum massa, rutrum ac felis vel, pharetra malesuada ex. Duis convallis congue turpis, ut porta quam congue in. Phasellus nec magna tortor. Vivamus id est euismod, malesuada nibh a, sagittis eros. Quisque erat quam, tristique id sapien vehicula, aliquam varius nunc. Etiam eleifend tortor massa, quis laoreet nunc bibendum id. Sed bibendum, erat sit amet ultrices faucibus, augue ipsum commodo metus, ut pretium sapien leo in lectus. Mauris nec iaculis lorem. Vestibulum fermentum maximus malesuada.</p>
