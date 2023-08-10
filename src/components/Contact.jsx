@@ -37,10 +37,10 @@ const Contact = () => {
           <p className='text-black font-semibold'>Name - Patrícia Estrela</p>
           <p className='text-black font-semibold'>Phone - (+351) 912345678</p>
         </div>
-        <input type="text" name="user_name" className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl' placeholder='Name' />
-        <input className='my-4 p-2 backdrop-blur-sm bg-[#e3e3e3]/80 rounded-xl' type="email" placeholder='Email' name='user_email' />
-        <textarea className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl' name="message" rows="10" placeholder='Message'></textarea>
-        <input className='text-white border-2 bg-[#417154] hover:bg-[#e3e3e3] hover:border-[#417154] hover:text-black px-4 py-3 my-8 mx-auto flex items-center rounded-xl font-bold' type="submit" value="Send" />
+        <input type="text" name="user_name" className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl enabled:hover:border-gray-400 focus:ring-[#417154]' placeholder='Name' required/>
+        <input className='my-4 p-2 backdrop-blur-sm bg-[#e3e3e3]/80 rounded-xl enabled:hover:border-gray-400 focus:ring-[#417154]' type="email" placeholder='Email' name='user_email' required/>
+        <textarea className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl enabled:hover:border-gray-400 focus:ring-[#417154]' name="message" rows="10" placeholder='Message' required></textarea>
+        <input className='text-white border-2 bg-[#6D9775] hover:bg-[#417154] hover:border-[#417154] hover:text-white px-4 py-3 my-8 mx-auto flex items-center rounded-xl font-bold' type="submit" value="Send" />
       </form>
 
       {/* Show the pop-up message if isMessageSent is true */}

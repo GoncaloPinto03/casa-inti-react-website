@@ -47,7 +47,7 @@ const About = () => {
   };
 
   return (
-    <div className='bg-[#e3e3e3] p-2 md:p-4 justify-center flex items-center'>
+    <div className='bg-[#263126] p-2 md:p-4 justify-center flex items-center'>
     <div name="about" className=' bg-[#d7e0c8] md:p-8 p-4 rounded-3xl m-4 max-w-[1240px]' >
         <div className=' mx-auto grid md:grid-cols-2'>
             <div name='about' className='bg-[#d7e0c8] max-w-[1240px] h-[600px] w-full m-auto   relative group'>
@@ -65,7 +65,7 @@ const About = () => {
             <div className='flex flex-col justify-center md:p-4 p-2 '>
                 <p className='text-[#6D9775] font-bold'>ABOUT</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>CASA INTI</h1>
-                <p className='text-justify'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius neque in sodales auctor. Vestibulum tincidunt tempor metus, a cursus augue aliquam vitae. Nullam ipsum massa, rutrum ac felis vel, pharetra malesuada ex. Duis convallis congue turpis, ut porta quam congue in. Phasellus nec magna tortor. Vivamus id est euismod, malesuada nibh a, sagittis eros. Quisque erat quam, tristique id sapien vehicula, aliquam varius nunc. Etiam eleifend tortor massa, quis laoreet nunc bibendum id. Sed bibendum, erat sit amet ultrices faucibus, augue ipsum commodo metus, ut pretium sapien leo in lectus. Mauris nec iaculis lorem. Vestibulum fermentum maximus malesuada.</p>
+                <p className='text-justify font-semibold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius neque in sodales auctor. Vestibulum tincidunt tempor metus, a cursus augue aliquam vitae. Nullam ipsum massa, rutrum ac felis vel, pharetra malesuada ex. Duis convallis congue turpis, ut porta quam congue in. Phasellus nec magna tortor. Vivamus id est euismod, malesuada nibh a, sagittis eros. Quisque erat quam, tristique id sapien vehicula, aliquam varius nunc. Etiam eleifend tortor massa, quis laoreet nunc bibendum id. Sed bibendum, erat sit amet ultrices faucibus, augue ipsum commodo metus, ut pretium sapien leo in lectus. Mauris nec iaculis lorem. Vestibulum fermentum maximus malesuada.</p>
             </div>
         </div>
     </div>
