@@ -1,5 +1,6 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import background from '../assets/background2.jpg';
 
 const Contact = () => {
   const form = useRef();
@@ -26,18 +27,19 @@ const Contact = () => {
   };
 
   return (
-    <div name='contact' className=' h-screen bg-[#6D9775] flex justify-center items-center p-4'>
+    <div className='text-black bg-[#E3E3E3] relative z-auto' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div name='contact' className=' h-screen backdrop-blur-sm flex justify-center items-center p-4' >
       <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
-        <div className='pb-8'>
+        <div className='p-8 backdrop-blur-sm bg-[#e3e3e3]/50 rounded-xl mb-4'>
           <p className='text-4xl font-bold inline text-black border-b-4 border-[#e3e3e3]'>Contact</p>
-          <p className='text-[#e3e3e3] py-4'>Submit the form below or send us an email</p>
-          <p className='text-[#e3e3e3] py-0'>Email - casainti@gmail.com</p>
-          <p className='text-[#e3e3e3] py-0'>Name - Patrícia Estrela</p>
-          <p className='text-[#e3e3e3] py-0'>Phone - (+351) 912345678</p>
+          <p className='text-black font-semibold py-4'>Submit the form below or send us an email</p>
+          <p className='text-black font-semibold'>Email - casainti@gmail.com</p>
+          <p className='text-black font-semibold'>Name - Patrícia Estrela</p>
+          <p className='text-black font-semibold'>Phone - (+351) 912345678</p>
         </div>
-        <input type="text" name="user_name" className='bg-[#e3e3e3] p-2 rounded-xl' placeholder='Name' />
-        <input className='my-4 p-2 bg-[#e3e3e3] rounded-xl' type="email" placeholder='Email' name='user_email' />
-        <textarea className='bg-[#e3e3e3] p-2 rounded-xl' name="message" rows="10" placeholder='Message'></textarea>
+        <input type="text" name="user_name" className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl' placeholder='Name' />
+        <input className='my-4 p-2 backdrop-blur-sm bg-[#e3e3e3]/80 rounded-xl' type="email" placeholder='Email' name='user_email' />
+        <textarea className='backdrop-blur-sm bg-[#e3e3e3]/80 p-2 rounded-xl' name="message" rows="10" placeholder='Message'></textarea>
         <input className='text-white border-2 bg-[#417154] hover:bg-[#e3e3e3] hover:border-[#417154] hover:text-black px-4 py-3 my-8 mx-auto flex items-center rounded-xl font-bold' type="submit" value="Send" />
       </form>
 
@@ -47,6 +49,7 @@ const Contact = () => {
           Message sent
         </div>
       )}
+    </div>
     </div>
   );
 };

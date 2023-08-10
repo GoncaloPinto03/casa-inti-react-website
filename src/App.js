@@ -6,6 +6,7 @@ import Reviews from './components/Reviews';
 import Footer from './components/Footer';
 import Contact from './components/Contact';
 import Location from './components/Location';
+import { ScrollToTop } from './components/ScrollToTop';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Reviews/>
       <Location/>
       <Contact/>
+      <ScrollToTop/>
       <Footer/>
     </div>
   );
