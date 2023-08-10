@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
           <div className=''>
             <Link to="contact" smooth={true} offset={0} duration={500}>
-              <button className='bg-[#6D9775] hover:bg-[#104730] hover:shadow-lg w-[300px] text-xl rounded-md my-6 mx-auto py-3 text-black font-semibold'>
+              <button className='bg-[#6D9775] hover:bg-[#3c6447] hover:shadow-lg w-[300px] text-xl rounded-md my-6 mx-auto py-3 text-white font-semibold'>
                 Contact Us
               </button>
             </Link>

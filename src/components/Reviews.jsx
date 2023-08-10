@@ -40,23 +40,23 @@ const Reviews = () => {
 
   return (
 
-    <div name="reviews" className='bg-[#E3E3E3] md:py-16 md:px-4 p-8'>
+    <div name="reviews" className='bg-[#263126] md:py-16 md:px-4 p-8'>
       <div className='max-w-[1240px] mx-auto'>
         <div className='flex flex-col justify-center'>
           <p className='text-[#6D9775] font-bold'>REVIEWS</p>
-          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>{reviewsData[currentReview].name}</h1>
-          <p className='text-justify'>{reviewsData[currentReview].content}</p>
+          <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2 text-white'>{reviewsData[currentReview].name}</h1>
+          <p className='text-justify text-[#d7e0c8] font-semibold'>{reviewsData[currentReview].content}</p>
 
           <div className="flex justify-center mt-4">
             <button
               onClick={handlePrevReview}
-              className="bg-[#6D9775] hover:bg-[#5b8364] text-white px-4 py-2 mr-4 rounded"
+              className="bg-[#6D9775] hover:bg-[#5b8364] text-white px-4 py-2 mr-4 rounded font-semibold"
             >
               Prev
             </button>
             <button
               onClick={handleNextReview}
-              className="bg-[#6D9775] hover:bg-[#5b8364] text-white px-4 py-2 rounded"
+              className="bg-[#6D9775] hover:bg-[#5b8364] text-white px-4 py-2 rounded font-semibold"
             >
               Next
             </button>

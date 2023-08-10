@@ -11,8 +11,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='relative z-40'>
-      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black md:backdrop-blur-sm md:bg-black/30 lg:rounded-2xl'>
+    <div className='relative z-40 md:backdrop-blur-sm md:bg-black/30'>
+      <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-black  lg:rounded-2xl'>
       <img className='w-[30px] mx-auto my-4 mr-3 rounded-[10px]' src={logo} alt='/'/>
         <h1 className='w-full text-3xl font-bold sm:text-[#6D9775] text-white cursor-pointer'>
           <Link to='home' smooth={true} duration={500}>
@@ -56,28 +56,28 @@ const Navbar = () => {
           <h1 className=' text-3xl font-bold text-[#E3E3E3] m-4'>CASA INTI</h1>
         </div>
         <ul className='uppercase p-4 font-bold text-[#e3e3e3]'>
-          <li onClick={handleNav} className='p-4 border-b border-gray-600'>
+          <li onClick={handleNav} className='p-4 border-b border-gray-100'>
             <Link to='home' smooth={true} duration={500}>
               Home
             </Link>
           </li>
-          <li onClick={handleNav} className='p-4 border-b border-gray-600'>
-            <Link to='about' smooth={true} offset={50} duration={500}>
+          <li onClick={handleNav} className='p-4 border-b border-gray-100'>
+            <Link to='about' smooth={true} duration={500}>
               About
             </Link>
           </li>
-          <li onClick={handleNav} className='p-4 border-b border-gray-600'>
-            <Link to='reviews' smooth={true} offset={50} duration={500}>
+          <li onClick={handleNav} className='p-4 border-b border-gray-100'>
+            <Link to='reviews' smooth={true} duration={500}>
               Reviews
             </Link>
           </li>
-          <li onClick={handleNav} className='p-4 border-b border-gray-600'>
-            <Link to='location' smooth={true} offset={50} duration={500}>
+          <li onClick={handleNav} className='p-4 border-b border-gray-100'>
+            <Link to='location' smooth={true}  duration={500}>
               Location
             </Link>
           </li>
           <li onClick={handleNav} className='p-4'>
-            <Link to='contact' smooth={true} offset={50} duration={500}>
+            <Link to='contact' smooth={true} duration={500}>
               Contacts
             </Link>
           </li>
