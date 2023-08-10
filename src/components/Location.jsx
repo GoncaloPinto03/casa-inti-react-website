@@ -8,7 +8,7 @@ const Location = () => {
 
 
   return (
-    <div className='bg-[#263126] p-2 justify-center flex items-center'>
+    <div className='bg-[#263126] p-4 justify-center flex items-center'>
     <div name="location" className=' bg-[#d7e0c8] p-2 md:p-4 rounded-3xl m-4 max-w-[1240px]'>
         <div className='max-w-[1240px] mx-auto'>
             

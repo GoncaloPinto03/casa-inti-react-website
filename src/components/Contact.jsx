@@ -1,6 +1,8 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import background from '../assets/background2.jpg';
+import background2 from '../assets/background3.jpeg';
+import background3 from '../assets/background4.jpeg';
 
 const Contact = () => {
   const form = useRef();
@@ -27,7 +29,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='text-black bg-[#E3E3E3] relative z-auto' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+    <div className='text-black bg-[#E3E3E3] relative z-auto' style={{ backgroundImage: `url(${background3})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
     <div name='contact' className=' h-screen backdrop-blur-sm flex justify-center items-center p-4' >
       <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
         <div className='p-8 backdrop-blur-sm bg-[#e3e3e3]/50 rounded-xl mb-4'>
