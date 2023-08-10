@@ -10,8 +10,7 @@ const Location = () => {
   return (
     <div className='bg-[#263126] p-4 justify-center flex items-center'>
     <div name="location" className=' bg-[#d7e0c8] p-2 md:p-4 rounded-3xl m-4 max-w-[1240px]'>
-        <div className='max-w-[1240px] mx-auto'>
-            
+        <div className='max-w-[1240px] mx-auto'>        
             <div className='flex flex-col justify-center px-4 py-4'>
                 <p className='text-[#6D9775] font-bold'>LOCATION</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>CASA INTI</h1>
