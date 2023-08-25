@@ -65,7 +65,13 @@ const About = () => {
             <div className='flex flex-col justify-center md:p-4 p-2 '>
                 <p className='text-[#6D9775] font-bold'>ABOUT</p>
                 <h1 className='md:text-4xl sm:text-3xl text-2xl font-bold py-2'>CASA INTI</h1>
-                <p className='text-justify font-semibold'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi varius neque in sodales auctor. Vestibulum tincidunt tempor metus, a cursus augue aliquam vitae. Nullam ipsum massa, rutrum ac felis vel, pharetra malesuada ex. Duis convallis congue turpis, ut porta quam congue in. Phasellus nec magna tortor. Vivamus id est euismod, malesuada nibh a, sagittis eros. Quisque erat quam, tristique id sapien vehicula, aliquam varius nunc. Etiam eleifend tortor massa, quis laoreet nunc bibendum id. Sed bibendum, erat sit amet ultrices faucibus, augue ipsum commodo metus, ut pretium sapien leo in lectus. Mauris nec iaculis lorem. Vestibulum fermentum maximus malesuada.</p>
+                <p className='text-justify font-semibold'>Boasting garden views, CASA INTI / INTI HOUSE FURNAS offers accommodation with a patio and a coffee machine, around 1.9 km from Fumarolas. Featuring city and quiet street views, this bed and breakfast also features free WiFi.
+
+The bed and breakfast is fitted with 3 bedrooms, 1 bathroom, bed linen, towels, a flat-screen TV with satellite channels, a dining area, a fully equipped kitchen, and a terrace with mountain views.
+
+The bed and breakfast offers an outdoor fireplace. CASA INTI / INTI HOUSE FURNAS has a barbecue and a garden, which can be enjoyed by guests if the weather permits.
+
+Lagoa das Furnas is 3.5 km from the accommodation, while Pico do Ferro is 6 km from the property. The nearest airport is João Paulo II Airport, 47 km from CASA INTI / INTI HOUSE FURNAS.</p>
             </div>
         </div>
     </div>

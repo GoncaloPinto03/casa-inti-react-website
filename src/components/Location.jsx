@@ -1,7 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-import { RxDotFilled } from 'react-icons/rx';
-import map from '../assets/map.png'
+import React from 'react';
 
 const Location = () => {
   
