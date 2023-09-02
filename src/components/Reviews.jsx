@@ -118,7 +118,7 @@ const Reviews = () => {
 
   return (
     <div className='bg-[#263126] p-2 md:p-4 justify-center flex items-center'>
-    <div name="about" className=' bg-[#d7e0c8] md:p-8 p-4 rounded-3xl m-4 zx w-[1240px]' >
+    <div name="reviews" className=' bg-[#d7e0c8] md:p-8 p-4 rounded-3xl m-4 zx w-[1240px]' >
         <div className=' mx-auto grid md:grid-cols-2'>
           <div className='flex flex-col justify-center md:p-4 p-2 '>
             <p className='text-[#6D9775] font-bold'>REVIEWS</p>

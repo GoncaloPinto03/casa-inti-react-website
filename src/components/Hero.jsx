@@ -5,11 +5,11 @@ import background from '../assets/background1.jpg';
 
 const Hero = () => {
   return (
-    <div name="home" className='text-black bg-[#E3E3E3] relative z-auto '
+    <div name="home" className='text-black bg-[#E3E3E3] relative z-auto'
       style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
     >
       <div className='backdrop-blur-sm'>
-      <div className='max-w-[800px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
+      <div className='max-w-[800px] min-h-[700px] mt-[-96px] w-full h-screen mx-auto text-center flex flex-col justify-center'>
         <div className='rounded-2xl   '>
           <div className='backdrop-blur-sm bg-black/30 rounded-xl inline-block'>
           <p className='text-[#6D9775] font-bold p-3 '>FURNAS, AZORES</p>

@@ -28,7 +28,7 @@ const Contact = () => {
 
   return (
     <div className='text-black bg-[#E3E3E3] relative z-auto' style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-    <div name='contact' className=' h-screen backdrop-blur-sm flex justify-center items-center p-4' >
+    <div name='contact' className=' h-screen min-h-[800px] backdrop-blur-sm flex justify-center items-center p-4' >
       <form ref={form} onSubmit={sendEmail} className='flex flex-col max-w-[600px] w-full'>
         <div className='p-8 backdrop-blur-sm bg-[#e3e3e3]/50 rounded-xl mb-4'>
           <p className='text-4xl font-bold inline text-black border-b-4 border-[#e3e3e3]'>Contact</p>
