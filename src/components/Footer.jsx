@@ -61,6 +61,8 @@ const Footer = () => {
             <div class="sm:flex sm:items-center sm:justify-between">
                 <span class="text-sm text-black-500 sm:text-center dark:text-gray-400 font-semibold">© 2023 <a class="hover:underline">CASA INTI</a>. All Rights Reserved.
                 </span>
+                <br></br>
+                <a href='https://xn--gonalopinto-o9a.com/' class="text-sm text-black-500 sm:text-center dark:text-gray-400 font-semibold underline">By Gonçalo Pinto</a>
             </div>
           </div>
       </footer>
